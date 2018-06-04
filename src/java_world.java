@@ -1,7 +1,13 @@
 
 public class java_world {
 	public static void main(String[] args) {
-		System.out.println("hello java");
-		System.out.println("java world");
+		
+		int[] a = new int[2];
+		a[0] = 1;
+		a[1] = 2;
+		
+		System.out.println(a[1]);
+		
+		
 	}
 }
