@@ -28,7 +28,7 @@ public class mul {
 			System.out.println("입력한 값을 다시 확인해 주세요.");
 			
 		}
-		 
+		 return;
 		
 		//for 문 사용 출력하고 싶은 단 만 출력 하는 구문  
 		
