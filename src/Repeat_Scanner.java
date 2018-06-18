@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Repeat_Scanner {
 	
 	public static int inputIntValues ;
-	public static String inputStrValues;
+	public static String inputStrValues, inputNextValues;
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -25,5 +25,10 @@ public class Repeat_Scanner {
 		//System.out.println("입력 된 값 -> " + inputStrValues);
 		//sc.close();
 		
+	}
+	
+	public static void NetSc() {
+		Scanner sc = new Scanner(System.in);
+		inputNextValues = sc.next();
 	}
 }

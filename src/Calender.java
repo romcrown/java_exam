@@ -39,6 +39,13 @@ public class Calender {
 
 	public static int[] mon = { 30, 28, 30, 31, 29, 30, 31, 30, 29, 30, 31, 31 };
 
+	public boolean isLeapYear(int year) {
+		if (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0))
+			return true;
+		else
+			return false;
+	}
+	
 	public static void main(String[] args) {
 		
 		Calendar cal = new GregorianCalendar(Locale.KOREA);
